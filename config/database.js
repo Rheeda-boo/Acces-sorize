@@ -1,7 +1,9 @@
 const mongoose = require("mongoose");
 const connection = mongoose.connection;
 
-mongoose.connect("mongodb://localhost:27017/Accessorize", {useNewUrlParser: true});
+mongoose.connect("mongodb://localhost:27017/Accessorize",
+ {useNewUrlParser: true}, 
+ { useUnifiedTopology: true } );
 
 connection.on("connected", () => {
     console.log("Database connected successfully");
