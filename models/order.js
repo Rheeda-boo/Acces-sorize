@@ -1,15 +1,14 @@
 const mongoose  = require("mongoose");
-const productModel = require("./products");
+const productModel = require("./product ");
 
 const orderSchema = new  mongoose.Schema({
    
-    products :[],
-    //  : {
-    //     type : Number,
-    //     required : true,
-    //     trim : true
-    // },
-
+    products: [
+       { type : mongoose.Schema.Types.ObjectId,
+        required : true,
+        ref: "productModel"
+       }],
+   
     totalAmount : {
         type : Number,
         required : true,
@@ -20,10 +19,10 @@ const orderSchema = new  mongoose.Schema({
         type : String,
         required : true,
         trim : true
+        
     },
-
 });
 
-const orderModel  = mongoose.model("Product", orderSchema);
+const orderModel  = mongoose.model("Order", orderSchema);
 
 module.exports = orderModel;

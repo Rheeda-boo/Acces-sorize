@@ -6,6 +6,7 @@ header {
     color: whitesmoke;
     text-decoration: none;
     background-color: #270949;
+    border-radius: 25px;
  }
 
 .navBar {
@@ -23,6 +24,7 @@ header {
     margin: 0;
     justify-content: space-around;
     /* padding-left: 400px; */
+    
 }
 
 .menuList {
@@ -31,6 +33,7 @@ header {
     margin: 0px 30px;
     font-size: larger;
     padding: 15px 0;
+    right: 0px;
 }
 
 li > a:hover{
@@ -47,7 +50,12 @@ li > a {
     height: 50px;
     width: 170px;
     float: left;
-    margin-right: 30%;
+    /* margin-right: 30%; */
     border-radius: 25px;
-    padding: 1px;
+    padding: 2px;
+}
+
+.menuDiv {
+ position: absolute;
+ right: 0;
 }
