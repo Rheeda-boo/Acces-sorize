@@ -1,0 +1,23 @@
+body{
+    font-family: "Courier new", Courier;
+    
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    /* width: 100%; */
+    font-style: "Courier new";
+    color: whitesmoke;
+    background-color: #270949;
+    float: bottom;
+    position: bottom;
+    padding: 1% 2%;
+    justify-content: center;
+    margin: 0%;
+  
+}
+footer > a{
+    color: whitesmoke;
+    text-decoration: none;
+ }

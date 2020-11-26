@@ -1,0 +1,53 @@
+body{
+    font-family: "Courier new", Courier;
+}
+
+header {
+    color: whitesmoke;
+    text-decoration: none;
+    background-color: #270949;
+ }
+
+.navBar {
+    display: flex;
+    flex-direction: row;
+    margin-top: 0%;
+    /* padding: 8px; */
+}
+
+.menu {
+    color: whitesmoke;
+    list-style-type: none;
+    padding: 0;
+    height: 100%;
+    margin: 0;
+    justify-content: space-around;
+    /* padding-left: 400px; */
+}
+
+.menuList {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0px 30px;
+    font-size: larger;
+    padding: 15px 0;
+}
+
+li > a:hover{
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+li > a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.logo {
+    height: 50px;
+    width: 170px;
+    float: left;
+    margin-right: 30%;
+    border-radius: 25px;
+    padding: 1px;
+}
