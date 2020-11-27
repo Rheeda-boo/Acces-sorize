@@ -3,7 +3,8 @@ font-style: "Courier new";
 }
 
 .carousel-item {
-    height: 32rem;
+    width: 80%;
+    height: 60vh;
     background-color: black;
     color: whitesmoke;
     position: relative;
