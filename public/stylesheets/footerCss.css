@@ -3,7 +3,7 @@ body{
     
 }
 
-footer {
+.footer {
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -17,7 +17,7 @@ footer {
     margin: 0%;
   
 }
-footer > a{
+.footer  a{
     color: whitesmoke;
     text-decoration: none;
  }
