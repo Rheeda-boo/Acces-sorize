@@ -6,12 +6,12 @@ body{
 footer {
     display: flex;
     flex-direction: row;
-    /* width: 100%; */
+    width: 100%;
     font-style: "Courier new";
     color: whitesmoke;
     background-color: #270949;
-    float: bottom;
-    position: bottom;
+    /* position: absolute;
+    bottom: 0%; */
     padding: 1% 2%;
     justify-content: center;
     margin: 0%;
