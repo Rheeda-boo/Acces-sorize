@@ -1,0 +1,15 @@
+.category {
+    display: grid;
+    grid-template-columns: 200px 200px ;
+    grid-
+}
+
+h1 {
+    align-self: center;
+    justify-self: center;
+}
+/* 
+figure img {
+    height: 250px;
+    width: 400ox;
+} */

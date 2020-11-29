@@ -1,0 +1,14 @@
+.category {
+    display: grid;
+    grid-template-columns: 200px 200px ;
+}
+
+h1 {
+    align-self: center;
+    justify-self: center;
+}
+
+.category img {
+    height: 250px;
+    
+}
