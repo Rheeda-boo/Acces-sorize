@@ -18,4 +18,19 @@ router.get("/categories", (req, res) => {
     res.render("shop/categories")
 });
 
+router.get("/categories/shoes", (req, res) => {
+    res.render("shop/shoes")
+});
+
+router.get("/categories/hair", (req, res) => {
+    res.render("shop/hair")
+});
+
+router.get("/categories/bags", (req, res) => {
+    res.render("shop/bags")
+});
+
+router.get("/categories/jewelry", (req, res) => {
+    res.render("shop/jewelry")
+});
 module.exports = router;
